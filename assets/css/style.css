@@ -334,3 +334,57 @@ body {
 
   
 }
+
+@media (min-width: 1440px) {
+  body {
+    font-size: 1.25em;
+  }
+
+  .header__container {
+    width: 80%;
+  }
+
+  .header__heading {
+    font-size: 4em;
+  }
+
+  .header__info { line-height: 1.7; }
+
+  .container {
+    width: 76%;
+  }
+
+  .access {
+    margin-top: 70px;
+  }
+  
+  .access__top {
+    width: 90%;
+    margin: auto;
+    padding-left: 169px;
+  }
+
+  .access__img {
+    margin-top: -175px;
+  }
+
+  .access__info {
+    line-height: 1.7;
+  }
+  
+  .access__bottom {
+    right: 200px;
+    padding: 50px;
+    bottom: -100px;
+  }
+
+  .footer__company {
+    display: flex;
+    column-gap: 150px;
+    align-items: flex-start;
+  }
+
+  .footer__company-details {
+    margin: 0;
+  }
+}
